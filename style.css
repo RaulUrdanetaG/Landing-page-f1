@@ -117,7 +117,7 @@ body{
 .card img{
     width: 200px;
     height: 200px;
-    border: 2px solid black;
+    border: 2px solid #15151E;
     border-radius: 5px;
 }
 
@@ -130,7 +130,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid #15151E;
     border-radius: 5px;
     width: 200px;
     height: 200px;
@@ -175,6 +175,34 @@ body{
     font-family: "f1-italic";
 }
 
+.section-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #15151E;
+    color: white;
+}
+
+.subscribe-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E10600;
+    gap: 200px;
+    border-radius: 20px;
+    width: 1050px;
+    padding: 40px;
+    margin: 100px 40px;
+}
+
+.subscribe-box button{
+    font-size: 20px;
+    background-color: #E10600;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+}
 .quote{
     display: flex;
     flex-direction: column;
