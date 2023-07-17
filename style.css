@@ -75,3 +75,27 @@ body{
     padding: 50px 200px;
     gap: 30px;
 }
+
+.header-bot button{
+    padding: 10px 15px;
+    background-color: #E10600;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer{
+    background-color: #15151E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    padding: 0 200px;
+    font-size: 15px;
+    color: #D0D0D2;
+}
+
+.footer img{
+    height: 21px;
+    width: 84px;
+}
