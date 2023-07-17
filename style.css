@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'f1-regular';
+	src: url('https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.woff2') format('woff2');
+}
+
+/* Team colors
+    ("mercedes",	#6cd3bf),
+	("ferrari",		#ed1c24),
+	("redbull",		#1e5bc6),
+	("alpine",		#2293d1),
+	("haas",		#b6babd),
+	("alphatauri",	#4e7c9b),
+	("williams",	#37bedd),
+	("astonmartin",	#2d826d),
+	("alfaromeo",	#b12039),
+	("mclaren",		#f58020) */
+
+*{
+    font-family: "f1-regular";
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+}
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar{
+    display: flex;    
+    justify-content: center;
+    gap: 650px;
+    align-items: center;
+    background-color: #E10600;
+    padding: 0 200px;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar img{
+    height: 32.5px;
+    width: 130px;
+}
+
+.header-links{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    gap: 20px;
+}
+
+.header-img{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+}
+
+.header-left{
+    width: 500px;
+}
+
+.header-bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
+    gap: 30px;
+}
