@@ -3,6 +3,16 @@
 	src: url('https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.woff2') format('woff2');
 }
 
+@font-face {
+	font-family: 'f1-italic';
+	src: url('https://www.formula1.com/etc/designs/fom-website/fonts/F1RegularItalic/Formula1-Italic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'f1-bold';
+	src: url('https://www.formula1.com/etc/designs/fom-website/fonts/F1Bold/Formula1-Bold.woff2') format('woff2');
+}
+
 /* Team colors
     ("mercedes",	#6cd3bf),
 	("ferrari",		#ed1c24),
@@ -86,7 +96,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
+    padding: 0px 200px 50px 200px;
 }
 
 .section-1 h2{
@@ -136,6 +146,39 @@ body{
     display: flex;
     width: 180px;
     height: 120px;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    background-color: #15151E;
+    color: white;
+    padding: 50px 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    
+}
+
+.section-2 hr{
+    width: 1050px;
+}
+
+.section-2 h5{
+    align-self: flex-end;
+    font-family: "f1-bold";
+    margin: 0px 0px 30px 0px;
+}
+
+.section-2 p{
+    align-self: center;
+    font-family: "f1-italic";
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    width: 1050px;
 }
 
 .footer{
