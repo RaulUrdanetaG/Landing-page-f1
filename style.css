@@ -68,7 +68,7 @@ body{
     align-items: center;
     background-color: #15151E;
     flex-wrap: wrap;
-    padding: 100px 200px;
+    padding: 100px 50px;
     gap: 30px;
 }
 
@@ -96,11 +96,11 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0px 200px 50px 200px;
+    padding: 0px 0px 50px 0px;
 }
 
 .section-1 h2{
-    margin: 50px;
+    margin: 50px 0px 20px 0px;
 }
 
 .sub-section-1{
@@ -111,6 +111,7 @@ body{
 .card{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 200px;
 }
 
@@ -124,6 +125,10 @@ body{
 .fix-img{
     width: 200px;
     height: auto;
+}
+
+.fix-img h3{
+    text-align: center;
 }
 
 .card-img-calendar,.card-img-standings{
