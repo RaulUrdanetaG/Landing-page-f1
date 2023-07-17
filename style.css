@@ -26,23 +26,25 @@ body{
     justify-content: center;
 }
 
-.top-section{
-    display: flex;
-    flex-direction: column;
-}
-
 .nav-bar{
     display: flex;    
     justify-content: center;
-    gap: 650px;
+    gap: 550px;
     align-items: center;
     background-color: #E10600;
     padding: 0 200px;
 }
 
-.header-links a{
+.nav-bar-links a{
     text-decoration: none;
     color: white;
+}
+
+.nav-bar-links{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    gap: 20px;
 }
 
 .nav-bar img{
@@ -50,38 +52,90 @@ body{
     width: 130px;
 }
 
-.header-links{
+.top-section{
     display: flex;
-    padding: 0;
-    list-style: none;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #15151E;
+    flex-wrap: wrap;
+    padding: 100px 200px;
+    gap: 30px;
 }
 
-.header-img{
-    border: 2px solid black;
+.top-section-img{
     border-radius: 5px;
     width: 500px;
     height: auto;
 }
 
-.header-left{
+.top-section-left{
     width: 500px;
+    color: white;
 }
 
-.header-bot{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 200px;
-    gap: 30px;
-}
-
-.header-bot button{
+.top-section button{
     padding: 10px 15px;
     background-color: #E10600;
     color: white;
     border-radius: 5px;
     border: none;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.section-1 h2{
+    margin: 50px;
+}
+
+.sub-section-1{
+    display: flex;
+    gap: 80px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.fix-img{
+    width: 200px;
+    height: auto;
+}
+
+.card-img-calendar,.card-img-standings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.card-img-standings img{
+    display: flex;
+    width: 180px;
+    height: 80px;
+}
+
+.card-img-calendar img{
+    display: flex;
+    width: 180px;
+    height: 120px;
 }
 
 .footer{
