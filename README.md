@@ -11,4 +11,4 @@ Landing page project from project odin curriculum, decided to make it around for
 - Used a separating line for the first time
 - edited README.md for the first time
   
-  
+  [Live Preview](https://raulurdanetag.github.io/Landing-page-f1/) 👈
